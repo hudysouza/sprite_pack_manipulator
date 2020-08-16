@@ -923,6 +923,11 @@
     cssnano-preset-default "^4.0.0"
     postcss "^7.0.0"
 
+"@mdi/font@^5.5.55":
+  version "5.5.55"
+  resolved "https://registry.yarnpkg.com/@mdi/font/-/font-5.5.55.tgz#7f83d640f0692651f5e59558da99975f42114123"
+  integrity sha512-xrVCXiRMz7ubB8mu6ehDhMADmGpLBsk3GWZccs39jWmhoTxatFnOvW8STJjqMGtePPNgGYYu/6m/AJVyMjBxnw==
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -2117,6 +2122,13 @@ browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.8.5:
     escalade "^3.0.2"
     node-releases "^1.1.60"
 
+buefy@^0.8.20:
+  version "0.8.20"
+  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.8.20.tgz#75708800548220654575903d031a81fc8575b7f3"
+  integrity sha512-pg8Cn0m9cjqp2/vaKT4VIfU8KIumuX/gAT1GtearXRs56+kKqAPx3j9O8cm9W6P4jPUCHajKX6H8AqD0ram2Bg==
+  dependencies:
+    bulma "0.7.5"
+
 buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
@@ -2150,6 +2162,11 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
+
+bulma@0.7.5:
+  version "0.7.5"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.5.tgz#35066c37f82c088b68f94450be758fc00a967208"
+  integrity sha512-cX98TIn0I6sKba/DhW0FBjtaDpxTelU166pf7ICXpCCuplHWyu6C9LYZmL5PEsnePIeJaiorsTEzzNk3Tsm1hw==
 
 bytes@3.0.0:
   version "3.0.0"
@@ -5442,6 +5459,11 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
+material-icons@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/material-icons/-/material-icons-0.3.1.tgz#425e06e2448632d6249d6e1ffe2993682c5b171e"
+  integrity sha512-5Hbj76A6xDPcDZEbM4oxTknhWuMwGWnAHVLLPCEq9eVlcHb0fn4koU9ZeyMy1wjARtDEPAHfd5ZdL2Re5hf0zQ==
+
 md5.js@^1.3.4:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/md5.js/-/md5.js-1.3.5.tgz#b5d07b8e3216e3e27cd728d72f70d1e6a342005f"
@@ -8596,10 +8618,18 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.6.11:
+vue@^2.6.11, vue@^2.6.9:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.11.tgz#76594d877d4b12234406e84e35275c6d514125c5"
   integrity sha512-VfPwgcGABbGAue9+sfrD4PuwFar7gPb1yl1UK1MwXoQPAw0BKSqWfoYCT/ThFrdEVWoI51dBuyCoiNU9bZDZxQ==
+
+vuesax@^3.11.17:
+  version "3.11.17"
+  resolved "https://registry.yarnpkg.com/vuesax/-/vuesax-3.11.17.tgz#a2caa8dc69e49ed0ca3c22758f80affb62ae5a1d"
+  integrity sha512-vd8+lETXva1OIyv+yA1ejlkcmHeu581ZuYkblQw9WMkioPfh0aLSX6F6VQLJJeM3RMQiXVoHPkNKpIAfFTml7g==
+  dependencies:
+    chalk "^2.4.2"
+    vue "^2.6.9"
 
 vuex@^3.4.0:
   version "3.5.1"
